@@ -1,4 +1,4 @@
-# 🧠 Prompt API (FastAPI + Transformers)
+# 🧠 Minivault (FastAPI + Transformers)
 
 This project is a lightweight REST API built with FastAPI and Hugging Face Transformers that:
 
@@ -19,7 +19,7 @@ Runs entirely locally and containerized with Docker.
 
 ## 🚀 Quick Start
 
-### 1. Clone this repository
+### Steps to Run the App using Docker
 
 ```bash
 git clone https://github.com/naxoduor/minivault.git
@@ -31,7 +31,7 @@ docker build -t minivault .
 docker run -p 8000:8000 minivault
 
 ---
-## Test the app
+### Test the app
 curl -X POST http://localhost:8000/generate   -H "Content-Type: application/json"   -d '{"prompt": "What is AI"}'
 
 ----
